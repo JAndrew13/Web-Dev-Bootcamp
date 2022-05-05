@@ -1,0 +1,40 @@
+
+body {
+  background-color: #DAE5D0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Oleo Script', cursive;
+}
+
+h2 {
+  font-family: 'Questrial', sans-serif;
+}
+h3 {
+  font-family: 'Questrial', sans-serif;
+}
+h4 {
+  font-family: 'Questrial', sans-serif;
+}
+
+p {
+  font-family: 'Questrial', sans-serif;
+}
+
+
+
+div {
+  padding: 20px;
+}
+
+.top-cloud {
+  margin-left: 400px;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
