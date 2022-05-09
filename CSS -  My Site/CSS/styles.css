@@ -1,30 +1,39 @@
 
 body {
-  background-color: #DAE5D0;
+  background-color: #EAF6F6;
   text-align: center;
 }
 
 h1 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: 'Oleo Script', cursive;
+  margin: 30px auto 0 auto;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
 }
 
 h2 {
+  color: #66BFBF;
   font-family: 'Questrial', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+
 }
 h3 {
+  color: #11999E;
   font-family: 'Questrial', sans-serif;
+
 }
 h4 {
   font-family: 'Questrial', sans-serif;
+  color: #11999E;
 }
 
 p {
   font-family: 'Questrial', sans-serif;
+  line-height: 2;
+  text-align: left;
 }
-
-
 
 div {
   padding: 20px;
@@ -34,7 +43,94 @@ div {
   margin-left: 400px;
   padding-top: 100px;
 }
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.profile-img {
+   width: 25%;
+
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.bio {
+  text-align: left;
+}
 
 .bottom-cloud {
   position: absolute;
+}
+
+.skill-row {
+  margin: 20px auto 5px auto;
+  width: 50%;
+}
+
+.img-left-title {
+  text-align: left;
+}
+.simple-img {
+  float: left;
+  margin-right: 1.8rem;
+  width: 25%;
+}
+
+.relevant-img {
+  float: right;
+  margin-left: 1.8rem;
+  width: 25%;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #66BFBF;
+}
+
+.copyright {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-link {
+  color: #11999E;
+  font-weight: bold;
+  margin: 10px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(top, bottom, #3498db, #2980b9);
+  border-radius: 38px;
+  box-shadow: 0 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px;
+  border: solid #1f628d 0;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(top, bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
