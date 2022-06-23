@@ -26,7 +26,7 @@ p {
 /* Title Area */
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 6%;
 }
 
 #title {
@@ -36,14 +36,6 @@ p {
 
 .download-button {
   margin: 5% 3% 5% 0;
-}
-
-/* title image */
-
-.title-image {
-  width: 50%;
-  margin: 0 5rem;
-  transform: rotate(25deg);
 }
 
 /* Navigation Bar */
@@ -70,9 +62,20 @@ p {
   font-family: 'Ubuntu', sans-serif;
 }
 
+/* title image */
+
+.title-image {
+width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
 /* Features */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
@@ -107,6 +110,31 @@ p {
   margin-top: 20px;
 }
 
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-btn {
+  width: 100%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -116,3 +144,13 @@ p {
    width: 15%;
    margin: 20px 50px 50px;
  }
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding-top: 5%;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
