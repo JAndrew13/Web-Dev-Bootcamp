@@ -13,10 +13,8 @@ p {
   color: grey;
 }
 
-
 /* Screen Responsivity */
 @media (max-width: 1028px) {
-
   .title-image {
     position: static;
     transform: rotate(0);
@@ -42,7 +40,6 @@ p {
 }
 
 /* Sections */
-
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
@@ -54,7 +51,7 @@ p {
 
 /* Navigation Bar */
 .navbar {
-    padding: 0 0 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .nav-item {
@@ -68,8 +65,8 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
-
 }
+
 .navbar-brand {
   font-size: 2rem;
   font-weight: bold;
@@ -89,7 +86,7 @@ p {
 
 /* Title Image */
 .title-image {
-width: 18%;
+  width: 18%;
   transform: rotate(25deg);
   position: absolute;
   right: 25%;
@@ -121,6 +118,7 @@ width: 18%;
 #testimonials {
   background-color: #ef8172;
 }
+
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
@@ -141,6 +139,7 @@ width: 18%;
 .price-title {
   line-height: 1.5rem;
 }
+
 .price-text {
   font-size: 1.5rem;
   font-weight: 900;
@@ -161,10 +160,10 @@ width: 18%;
   padding-bottom: 3%;
 }
 
- .press-img {
-   width: 15%;
-   margin: 20px 50px 50px;
- }
+.press-img {
+  width: 15%;
+  margin: 20px 50px 50px;
+}
 
 /* Footer Icons */
 .social-icon {
