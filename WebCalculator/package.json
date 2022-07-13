@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "webcalculator",
+  "version": "1.0.0",
+  "description": "My first Web Application. A server-side web calculator",
+  "main": "server.js",
+  "author": "JAndrew",
+  "license": "ISC"
+}
