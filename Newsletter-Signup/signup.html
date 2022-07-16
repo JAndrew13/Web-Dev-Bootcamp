@@ -82,26 +82,26 @@
 
 
   <!-- Custom styles for this template -->
-  <link href="styles.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body class="text-center">
 
   <main class="form-signin w-100 m-auto">
-    <form>
+    <form method="POST" action="/">
       <img class="mb-4" src="images/JAndrew Logo.png" alt="JAndrew Logo Image" width="72" height="72">
       <h1 class="h3 mb-3 fw-normal">Get Connected</h1>
 
       <div class="form-floating">
-        <input type="text" class="form-control top" id="floatingInput" placeholder="First Name">
+        <input type="text" name="fName" class="form-control top" id="floatingInput" placeholder="First Name">
         <label for="floatingInput">First Name</label>
       </div>
       <div class="form-floating">
-        <input type="text" class="form-control middle" id="floatingPassword" placeholder="Last Name">
+        <input type="text" name="lName" class="form-control middle" id="floatingPassword" placeholder="Last Name">
         <label for="floatingPassword">Last Name</label>
       </div>
       <div class="form-floating">
-        <input type="email" class="form-control bottom" id="floatingInput" placeholder="name@example.com">
+        <input type="email" name="email" class="form-control bottom" id="floatingInput" placeholder="name@example.com">
         <label for="floatingInput">Email address</label>
       </div>
 
