@@ -52,8 +52,10 @@ app.post("/", function(req, res) {
 
   // Create request to send to MailChimp API
   const request = https.request(url, options, function(response){
-        if (response.status === 200) {
+        // if no errors are detected
+        if (response.statusCode === 200) {
           res.sendFile(__dirname + "/success.html")
+        // otherwise if an error is detected
         } else {
           res.sendFile(__dirname + "/failure.html")
         }
@@ -68,6 +70,7 @@ request.write(jsonData);
 request.end();
 });
 
+// if "try again" button is pressed, return to home
 app.post("/failure", function(req, res){
   res.redirect("/");
 });
