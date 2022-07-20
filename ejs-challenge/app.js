@@ -43,8 +43,8 @@ app.get("/compose", function(req, res){
 // compose new blog post
 app.post("/compose", function(req, res){
   const post = {
-    title: req.body.postTitle,
-    body:req.body.postBody
+    title: _.kebabCase(req.body.postTitle),
+    body: _.kebabCase(req.body.postBody)
   };
   posts.push(post)
   res.redirect("/")
