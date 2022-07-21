@@ -19,7 +19,7 @@ app.use(express.static("public"));
 
 
 // connect to database server
-mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://JAndrew13:122191Jb@cluster0.p9gt1nk.mongodb.net/todolistDB", {useNewUrlParser: true});
 
 // create new items Schema
 const itemsSchema = {name: String};
@@ -125,12 +125,16 @@ app.get("/:customlistName", function(req, res){
   });
 });
 
-// redirect to about page
-app.get("/about", function(req, res){
-  res.render("about");
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, function() {
+  console.log("Server started succesfully");
 });
 
-// listen for server startup and display message when running
-app.listen(3000, function() {
-  console.log("server is up on port 3000.");
+// redirect to about page
+app.get(port, function(req, res){
+  res.render("about");
 });
