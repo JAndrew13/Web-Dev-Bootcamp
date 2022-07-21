@@ -3,48 +3,129 @@
 // required packages
 const express = require("express");
 const bodyParser = require("body-parser");
-const date = require(__dirname + "/date.js");
+const mongoose = require("mongoose");
+const _ = require("lodash");
+
 
 // set app to express
 const app = express();
-
-//  create an array of list items
-const items = [];
-const workItems = [];
-
 // set EJS view engine
 app.set("view engine", "ejs");
+
 
 // connect body-parser, public folder
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-// get/set todays date and connect to EJS template
-app.get("/", function(req, res){
-  let day = date.getDate();
 
-  // use EJS to render the text on Clients browser
-  res.render("list", {listTitle: day, newListItems: items});
+// connect to database server
+mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true});
+
+// create new items Schema
+const itemsSchema = {name: String};
+const Item = mongoose.model("Item", itemsSchema);
+
+// create custom list schema
+const listSchema = {name: String, items: [itemsSchema]};
+const List = mongoose.model("list", listSchema);
+
+
+// create default items for new To-do List
+const item1 = new Item({name: "Welcome to your To-Do List!"});
+const item2 = new Item({name: "Hit the + button to add new items."});
+const item3 = new Item({name: "<---- Click this to remove an item."});
+const defaultItems = [item1, item2, item3];
+
+
+
+
+// connect to EJS template
+app.get("/", function(req, res){
+
+  Item.find({},function(err, foundItems){
+    // if no items are found in db -> create defaut and redirect to home
+    if (foundItems.length === 0) {
+      Item.insertMany(defaultItems, function(err){
+        if (err){
+          console.log(err);
+        } else {
+          console.log("Success!");
+        }
+      });
+      res.redirect("/");
+    } else {   // use EJS to render items on Clients browser
+      res.render("list", {listTitle: "Today", newListItems: foundItems});
+    };
+  })
 });
+
 
 // handle post requests to home route
 app.post("/", function(req, res){
-  let item = req.body.newItem; // sets value of entered text to new item.
+  const listName = req.body.list;
+  const itemName = req.body.newItem;
 
-  if (req.body.list === "Work"){ // if list name is equal to "work"
-    workItems.push(item);        // send new item to "work" list
-    res.redirect("/work")        // redirect to "work" list
+  const item = new Item({name: itemName});
+
+  if (listName === "Today"){
+    item.save();
+    res.redirect("/");
   } else {
-    items.push(item);            // adds new item to list of Items
-    res.redirect("/");           // redirects client to home with new data
+    List.findOne({name: listName}, function(err, foundList){
+      foundList.items.push(item);
+      foundList.save();
+      res.redirect("/" + listName);
+    });
   }
-})
-
-
-app.get("/work", function(req, res){
-  res.render("list", {listTitle: "Work", newListItems: workItems});
 });
 
+
+
+app.post("/delete", function(req, res){
+  const checkedItemId = req.body.checkbox;
+  const listName = req.body.listName;
+
+  if (listName === "Today") {
+    Item.findByIdAndRemove(checkedItemId, function(err){
+      if (!err) {
+        console.log("Successfully deleted checked item.");
+        res.redirect("/");
+      }
+    });
+  } else {
+    List.findOneAndUpdate({name: listName}, {$pull: {items: {_id: checkedItemId}}}, function(err, foundList){
+      if (!err){
+        res.redirect("/" + listName);
+      }
+    });
+  }
+});
+
+
+app.get("/:customlistName", function(req, res){
+
+  const customListName = _.capitalize(req.params.customlistName);
+
+  List.findOne({name: customListName}, function(err, foundList){
+    if (!err) {
+      if(!foundList) { // create new list
+
+        const list = new List({
+          name: customListName,
+          items: defaultItems
+        });
+
+        list.save();
+        res.redirect("/" + customListName);
+
+      }else{ // show existing list
+        res.render("list", {listTitle: foundList.name, newListItems: foundList.items});
+      };
+    }
+  });
+});
+
+// redirect to about page
 app.get("/about", function(req, res){
   res.render("about");
 });
