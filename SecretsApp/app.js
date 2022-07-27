@@ -40,7 +40,8 @@ mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true});
 const userSchema = new mongoose.Schema({
   email: String,
   password: String,
-  googleID: String
+  googleID: String,
+  secret: String
 });
 
 // add passport plugin to our mongoose Schema
@@ -96,11 +97,40 @@ app.get("/register", function(req, res) {
 
 // Get Secrets Page
 app.get("/secrets", function(req, res) {
+  User.find({"secret":{$ne:null}}, function(err, foundUsers){
+    if (err) {
+      console.log(err);
+    } else {
+      res.render("secrets", {usersWithSecrets: foundUsers});
+      }
+    }
+  });
+});
+
+// Get Submit Secrets
+app.get("/submit", function(req, res){
   if (req.isAuthenticated()) {
-    res.render("secrets");
+    res.render("submit");
   } else {
     res.redirect("/login");
   }
+});
+
+// Post new secrets
+app.post("/submit", function(req, res){
+  const submittedSecret = req.body.secret;
+  User.findById(req.user.id,  function(err, foundUser){
+    if (err) {
+      console.log(err);
+    } else {
+      if (foundUser) {
+        foundUser.secret = submittedSecret;
+        foundUser.save(function(){
+          res.redirect("/secrets");
+        });
+      }
+    }
+  });
 });
 
 // Get Logout
