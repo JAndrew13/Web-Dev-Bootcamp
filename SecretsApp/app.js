@@ -103,8 +103,7 @@ app.get("/secrets", function(req, res) {
     } else {
       res.render("secrets", {usersWithSecrets: foundUsers});
       }
-    }
-  });
+    });
 });
 
 // Get Submit Secrets

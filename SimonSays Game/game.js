@@ -7,6 +7,7 @@ var userPattern = [];
 var gameChosenColor = null;
 var userChosenColor = null;
 
+
 //   BUTTONS   //
 
 // on click user functions
@@ -36,16 +37,15 @@ function clickTile(color) {
 // Handles user clicks
 function userClick(color) {
   userChosenColor = color;
-  $("#" + currentColor).addClass("pressed");
+  $("#" + userChosenColor).addClass("pressed");
   clickTile(color);
     setTimeout(function () {
-      $("#" + currentColor).removeClass("pressed");
+      $("#" + userChosenColor).removeClass("pressed");
     }, 100);
-  }
+
   userPattern.push(color)
   checker();
-}
-
+  };
 //   GAMEPLAY   //
 
 // determine next item in sequence, return color (string)
