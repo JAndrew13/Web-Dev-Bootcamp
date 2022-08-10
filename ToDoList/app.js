@@ -1,4 +1,5 @@
 // required packages
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -10,6 +11,7 @@ const app = express();
 // set EJS view engine
 app.set("view engine", "ejs");
 
+const mongoAtlasKey = process.env.MONGO_ATLAS_KEY;
 
 // connect body-parser, public folder
 app.use(bodyParser.urlencoded({extended: true}));
@@ -17,7 +19,7 @@ app.use(express.static("public"));
 
 
 // connect to database server
-mongoose.connect("mongodb+srv://JAndrew13:122191Jb@cluster0.p9gt1nk.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect(mongoAtlasKey, {useNewUrlParser: true});
 
 // create new items Schema
 const itemsSchema = {name: String};

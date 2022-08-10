@@ -1,6 +1,7 @@
 //jshint esversion: 6
 
 // require modules
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
@@ -42,12 +43,12 @@ app.post("/", function(req, res) {
   const jsonData = JSON.stringify(data);
 
   // API Endpoint
-  const url = "https://us18.api.mailchimp.com/3.0/lists/194ef714e2";
+  const url = process.env.MAILCHIMP_API_ENDPOINT;
 
   // API options
   const options = {
     method: "POST",
-    auth: "JAndrew13:e9ca37f602c5cba5b0919e0c1fce0662-us18"
+    auth: process.env.MAILCHIMP_API_KEY
   };
 
   // Create request to send to MailChimp API

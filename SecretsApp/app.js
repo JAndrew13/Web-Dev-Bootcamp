@@ -33,7 +33,7 @@ app.use(passport.initialize());
 // setup a new session using passport
 app.use(passport.session());
 
-// Connect App to Database
+// Connect App to LOCAL Database
 mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true});
 
 // Create user schema with encryption
