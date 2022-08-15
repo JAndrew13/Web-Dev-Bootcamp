@@ -123,6 +123,8 @@ While reviewing the code, you might see things that are spaced out or deconstruc
 ![CSS3]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
+Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
+
 ## Dice Roller
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
