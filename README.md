@@ -1,5 +1,6 @@
 
 
+
 # Web-Dev-Bootcamp
 
 <a name="readme-top"></a>
@@ -10,15 +11,9 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+
 <div align="center">
-
-  <h3 align="center">
-  The Complete 2022 Web Development Bootcamp
-
-</h3>
-  
-  
+  <h3 align="center">The Complete 2022 Web Development Bootcamp</h3>
 </div>
 
 
@@ -27,22 +22,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#about-the-bootcamp">About The Project</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#the-repository">The Repository</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -50,7 +35,6 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Bootcamp
 
 
@@ -77,86 +61,81 @@ instructed by Dr. Angela Yu of the
 
 This course covers a wide range of languages, frameworks, and techniques used in web development today, from back to front. The curriculum is divided in a way that teaches new concepts and reinforces previous ones. Each of the 40 modules stair-steps into a final project, with the goal of both educataing and portfolio building. 
 
+
 ## The Repository
 Listed below are a handful of the projects I've completed that each highlight a skill or concept I've learned along the way.  
 
 While reviewing the code, you might see things that are spaced out or deconstructed This is because I wanted to focus my comments and structure on readability over compact refactoring.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-### Built With
-
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![React][React.js]][React-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-[![JQuery][JQuery.com]][JQuery-url]
-[![MongoDB][MongoDB.com]][MongoDB-url]
-[![Express.js][expressjs.com]][Expressjs-url]
-[![npm.js][npmjs.com]][npmjs-url]
-[![NodeJS][NodeJS.org]][NodeJS-url]
-[![Heroku][Heroku.com]][Heroku-url]
-[![Babel][Babel.com]][Babel-url]
-[![Postman][Postman.com]][Postman-url]
-[![Git][Git-scl.com]][Git-url]
-![HTML5]
-![CSS3]
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Projects 
-### TinDog Website 
+### [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website) 
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
 A mock startup company landing page, focused on Bootstrap. This project focused on popular Bootstrap elements, as well as dynamic screen sizing, and code formatting.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Blog Website
+
+### [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Simple Portfolio Website
-![HTML5]
-![CSS3]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+### [Simple Portfolio Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio)
+![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Dice Roller 
+
+### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) 
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A simple web tool for picking a random winner. This was an early lesson on implementing JavaScript into a web browser.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Drum Kit
+
+### [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JQuery][JQuery.com]][JQuery-url] ![HTML5] ![CSS3]
 
 Another early JavaScript project, focused on mixing JavaScript and Bootstrap in a webpage, as well as an introduction to JQuery.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Keeper
+
+### [Keeper](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/keeper)
 [![JavaScript][Javascript.com]][JavaScript-url] [![React][React.js]][React-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Babel][Babel.com]][Babel-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Newsletter Signup
+
+### [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup)
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Secrets
+### [Secrets](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SecretsApp)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### SimonSays Game 
+
+### [SimonSays Game](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SimonSays%20Game) 
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A retro-themed Simon Says game, focused on JS event handling and logic within a Bootstrap website 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Little To-Do List
+### [Little To-Do List](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/ToDoList)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Heroku][Heroku.com]][Heroku-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Web Calculator
+### [Web Calculator](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/WebCalculator)
 ![HTML5] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 A very basic introduction to setting up an HTML page on a local NodeJS server.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
