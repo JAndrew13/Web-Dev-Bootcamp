@@ -1,4 +1,5 @@
 
+
 # Web-Dev-Bootcamp
 
 <a name="readme-top"></a>
@@ -107,139 +108,70 @@ While reviewing the code, you might see things that are spaced out or deconstruc
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Projects 
-## TinDog Website 
-![HTML5]
-![CSS3]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
+### TinDog Website 
+![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+A mock startup company landing page, focused on Bootstrap. This project focused on popular Bootstrap elements, as well as dynamic screen sizing, and code formatting.
 
-## Blog Website
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![Express.js][expressjs.com]][Expressjs-url]
-[![MongoDB][MongoDB.com]][MongoDB-url]
-[![NodeJS][NodeJS.org]][NodeJS-url]
+### Blog Website
+[![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
-## Simple Portfolio Website
+### Simple Portfolio Website
 ![HTML5]
 ![CSS3]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
 
-## Dice Roller
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-![HTML5]
-![CSS3]
+### Dice Roller 
+[![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
+A simple web tool for picking a random winner. This was an early lesson on implementing JavaScript into a web browser.
 
-## Drum Kit
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-[![JQuery][JQuery.com]][JQuery-url]
-![HTML5]
-![CSS3]
+### Drum Kit
+[![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JQuery][JQuery.com]][JQuery-url] ![HTML5] ![CSS3]
 
+Another early JavaScript project, focused on mixing JavaScript and Bootstrap in a webpage, as well as an introduction to JQuery.
 
-## Keeper
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![React][React.js]][React-url]
-[![MongoDB][MongoDB.com]][MongoDB-url]
-[![Babel][Babel.com]][Babel-url]
+### Keeper
+[![JavaScript][Javascript.com]][JavaScript-url] [![React][React.js]][React-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Babel][Babel.com]][Babel-url]
 
-## Newsletter Signup
+### Newsletter Signup
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-## Secrets
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![Express.js][expressjs.com]][Expressjs-url]
-[![MongoDB][MongoDB.com]][MongoDB-url]
-[![NodeJS][NodeJS.org]][NodeJS-url]
 
-## SimonSays Game 
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-![HTML5]
-![CSS3]
+### Secrets
+[![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
+
+### SimonSays Game 
+[![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
+
+A retro-themed Simon Says game, focused on JS event handling and logic within a Bootstrap website 
 
 
-## Little To-Do List
-[![JavaScript][Javascript.com]][JavaScript-url]
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]
-[![MongoDB][MongoDB.com]][MongoDB-url]
-[![Heroku][Heroku.com]][Heroku-url]
+### Little To-Do List
+[![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Heroku][Heroku.com]][Heroku-url]
 
 
-## Web Calculator
-![HTML5]
+### Web Calculator
+![HTML5] [![NodeJS][NodeJS.org]][NodeJS-url]
 
-
-
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-  ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-  ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+A very basic introduction to setting up an HTML page on a local NodeJS server.
 
 
 <!-- USAGE EXAMPLES -->
-  ## Usage
+  # Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License.
+To view any of the projects listed above in further detail, click the project name and follow the steps displayed in the corresponding ReadMe files
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
 Jake Brunner -  jbbrunner10@gmail.com
-
-Project Link: [https://github.com/jandrew13/Web-Dev-Bootcamp](https://github.com/your_username/repo_name)
+LinkedIn - https://www.linkedin.com/in/jake-brunner-21760522b/
+This Repository -  [https://github.com/jandrew13/Web-Dev-Bootcamp]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -250,7 +182,8 @@ Project Link: [https://github.com/jandrew13/Web-Dev-Bootcamp](https://github.com
 
 
 
-* [The Course](https://www.udemy.com/course/the-complete-web-development-bootcamp)
+* [The 2022 Web Development Course](https://www.udemy.com/course/the-complete-web-development-bootcamp)
+* [The London App Brewery](https://www.londonappbrewery.com/) 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
