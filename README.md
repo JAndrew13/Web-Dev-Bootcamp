@@ -17,27 +17,7 @@
   <h3 align="center">The Complete 2022 Web Development Bootcamp</h3>
 </div>
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-bootcamp">About The Project</a>
-    </li>
-    <li>
-      <a href="#the-repository">The Repository</a>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 ## About The Bootcamp
-
 
 [git-scl.com]:https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
 [git-url]:https://git-scm.com/
@@ -62,6 +42,24 @@ instructed by Dr. Angela Yu of the
 
 This course covers a wide range of languages, frameworks, and techniques used in web development today, from back to front. The curriculum is divided in a way that teaches new concepts and reinforces previous ones. Each of the 40 modules stair-steps into a final project, with the goal of both educataing and portfolio building. 
 
+<!-- TABLE OF CONTENTS -->
+  #### Table of contents
++ [Projects](#projects)
+    - [Tindog](#tindog-website)
+    - [Blog Website](#blog-website)
+    - [Simple Portfolio Website](#simple-portfolio-website)
+    - [Dice Roller](#dice-roller)
+    - [Drum Kit](#drum-kit)
+    - [Keeper](#keeper)
+    - [Newsletter Signups](#newsletter-signup)
+    - [Secrets](#secrets)
+    - [Simon Says Game](#simonsays-game)
+    - [Little ToDo list](#little-to-do-list)
+    - [Web Calculator](#web-calculator)
++ [The Repository](#the-repository)
++ [Usage](#usage)
++ [Contact](#contact)
++ [Acknowledgments](#acknowledgments)
 
 ## The Repository
 Listed below are a handful of the projects I've completed that each highlight a skill or concept I've learned along the way.  
