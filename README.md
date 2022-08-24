@@ -149,8 +149,10 @@ To view any of the projects listed above in further detail, click the project na
 ## Contact
 
 Jake Brunner -  jbbrunner10@gmail.com
+
 LinkedIn - https://www.linkedin.com/in/jake-brunner-21760522b/
-This Repository -  [https://github.com/jandrew13/Web-Dev-Bootcamp]
+
+This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
