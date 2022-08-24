@@ -14,6 +14,7 @@ Here is the longer explination of the project.
 + [Prerequisites](#prerequisites)
 + [Installation](#installation)
 + [Usage](#usage)
++ [Directory](#directory)
 + [Contact](#contact)
 + [Acknowledgments](#acknowledgments)
 
@@ -52,12 +53,19 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-  # Usage
+## Usage
   
 An Explination on how to use the code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- DIRECTORY -->
+## Directory
+
+### [/images](https://github.com/JAndrew13/)
+Contains all image files used in the application
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
