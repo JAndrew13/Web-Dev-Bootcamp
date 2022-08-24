@@ -1,6 +1,7 @@
 
 
 
+
 # Web-Dev-Bootcamp
 
 <a name="readme-top"></a>
@@ -79,6 +80,9 @@ A mock startup company landing page, focused on Bootstrap. This project focused 
 
 ### [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
+
+Basic Blog website with articles dynamically displayed on homepage, built with MongoDB backend for article storage.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -105,17 +109,26 @@ Another early JavaScript project, focused on mixing JavaScript and Bootstrap in 
 
 ### [Keeper](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/keeper)
 [![JavaScript][Javascript.com]][JavaScript-url] [![React][React.js]][React-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Babel][Babel.com]][Babel-url]
+
+Keeper is a web application used for creating and storing "Post-it" style notes. This was a full stack project built with React, MongoDB, and JavaScript.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup)
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+A web landing page for users to join a newsletter mailing list. This project uses Google Authentication and a Mailchimp API to successfully store user data.
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### [Secrets](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SecretsApp)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
+
+A web application for posting anonymous messages. This project centered around 7 different levels of security and authentication using hashing, cookies, Google & Facebook OAuth,  and more.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -128,6 +141,8 @@ A retro-themed Simon Says game, focused on JS event handling and logic within a 
 
 ### [Little To-Do List](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/ToDoList)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Heroku][Heroku.com]][Heroku-url]
+
+A basic To-Do List web application that allows for custom list creation using mongoDB Atlas for storage. Built with bootstrap & hosted on Heroku web server.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
