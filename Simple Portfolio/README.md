@@ -1,19 +1,19 @@
 
-# Project Title ![stable]
+# Simple Portfolio Website ![stable]
 
 <!-- ABOUT SECTION -->
 
-Here is the longer explination of the project. 
- - why does this exist?
- - how does it work?
- - what did you learn in this project?
- 
+Here is the longer explination of the project.
+
+ This was one of my early lessons on setting up a basic HTML and CSS website.
+
+ Though it looks quite dated, the objective was to get comfortable with the HTML layout, CSS classes, and commonly used elements like divs, image links, paragraphs , and headings. In this project, I learned how to set site fonts with google, as well as handle container layout and contents within. 
+
 
 <!-- TABLE OF CONTENTS -->
   #### Table of contents
 + [Prerequisites](#prerequisites)
 + [Installation](#installation)
-+ [Usage](#usage)
 + [Directory](#directory)
 + [Contact](#contact)
 + [Acknowledgments](#acknowledgments)
@@ -23,47 +23,27 @@ Here is the longer explination of the project.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
-  
+* any HTML code editor of your choice, such as Visual Studio, Atom, Pycharm, etc.
+
+
 <!-- Installation -->
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+* No install modules required for this project.
+* clone the repository
+* open the index.html file in your browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-  
-An Explination on how to use the code
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DIRECTORY -->
 ## Directory
 
-### [/images](https://github.com/JAndrew13/)
-Contains all image files used in the application
+### [/CSS](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio/CSS)
+Folder containing CSS style sheet linked to the HTML document
+
+### [/images](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio/)
+Contains all image files used in the web page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +63,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 * [The 2022 Web Development Course](https://www.udemy.com/course/the-complete-web-development-bootcamp)
-* [The London App Brewery](https://www.londonappbrewery.com/) 
+* [The London App Brewery](https://www.londonappbrewery.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +109,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
 [MongoDB.com]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://mongodb.com
 [Expressjs.com]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
