@@ -3,8 +3,6 @@
 
 <!-- ABOUT SECTION -->
 
-Here is the longer explination of the project.
-
  This was one of my early lessons on setting up a basic HTML and CSS website.
 
  Though it looks quite dated, the objective was to get comfortable with the HTML layout, CSS classes, and commonly used elements like divs, image links, paragraphs , and headings. In this project, I learned how to set site fonts with google, as well as handle container layout and contents within. 
