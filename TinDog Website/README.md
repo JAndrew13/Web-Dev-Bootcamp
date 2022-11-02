@@ -1,17 +1,15 @@
 
-# Project Title ![stable]
+# TinDog ![stable]
 
 <!-- ABOUT SECTION -->
 
-Here is the longer explination of the project. 
- - why does this exist?
- - how does it work?
- - what did you learn in this project?
  
+ A simple project focused on creating a mock landing page for a "tech startup" using only HTML, CSS, and Bootstrap.
+ 
+
 
 <!-- TABLE OF CONTENTS -->
   #### Table of contents
-+ [Prerequisites](#prerequisites)
 + [Installation](#installation)
 + [Usage](#usage)
 + [Directory](#directory)
@@ -21,49 +19,28 @@ Here is the longer explination of the project.
 
 <!-- Prerequisites -->
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
-  
 <!-- Installation -->
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/JAndrew13/TinDog.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-  
-An Explination on how to use the code
+2. Open the HTML file inside your browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DIRECTORY -->
 ## Directory
 
+### [/root](https://github.com/JAndrew13/)
+Contains the HTML code for the website landing page
+
+### [/css](https://github.com/JAndrew13/)
+Contains all css style properties
+
 ### [/images](https://github.com/JAndrew13/)
-Contains all image files used in the application
+Contains all image files used on the site
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
