@@ -11,7 +11,6 @@
 <!-- TABLE OF CONTENTS -->
   #### Table of contents
 + [Installation](#installation)
-+ [Usage](#usage)
 + [Directory](#directory)
 + [Contact](#contact)
 + [Acknowledgments](#acknowledgments)
