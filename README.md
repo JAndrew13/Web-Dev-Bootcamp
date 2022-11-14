@@ -55,7 +55,6 @@ This course covers a wide range of languages, frameworks, and techniques used in
     - [Secrets](#secrets)
     - [Simon Says Game](#simonsays-game)
     - [Little ToDo list](#little-to-do-list)
-    - [Web Calculator](#web-calculator)
 + [The Repository](#the-repository)
 + [Usage](#usage)
 + [Contact](#contact)
@@ -69,14 +68,14 @@ While reviewing the code, you might see things that are spaced out or deconstruc
 
 
 # Projects 
-### [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website) 
+### [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website) ![unstable]
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 A mock startup company landing page, focused on Bootstrap. This project focused on popular Bootstrap elements, as well as dynamic screen sizing, and code formatting.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website)
+### [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website) ![unstable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 Basic Blog website with articles dynamically displayed on homepage, built with MongoDB backend for article storage.
@@ -84,28 +83,30 @@ Basic Blog website with articles dynamically displayed on homepage, built with M
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Simple Portfolio Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio)
+### [Simple Portfolio Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio) ![stable]
+
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
 
 Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) 
+### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) ![stable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A simple web tool for picking a random winner. This was an early lesson on implementing JavaScript into a web browser.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit)
+### [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit) ![unstable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JQuery][JQuery.com]][JQuery-url] ![HTML5] ![CSS3]
 
 Another early JavaScript project, focused on mixing JavaScript and Bootstrap in a webpage, as well as an introduction to JQuery.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Keeper](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/keeper)
+### [Keeper](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/keeper) ![unstable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![React][React.js]][React-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Babel][Babel.com]][Babel-url]
 
 Keeper is a web application used for creating and storing "Post-it" style notes. This was a full stack project built with React, MongoDB, and JavaScript.
@@ -113,7 +114,7 @@ Keeper is a web application used for creating and storing "Post-it" style notes.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup)
+### [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup) ![unstable]
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -122,7 +123,7 @@ A web landing page for users to join a newsletter mailing list. This project use
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Secrets](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SecretsApp)
+### [Secrets](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SecretsApp) ![unstable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 A web application for posting anonymous messages. This project centered around 7 different levels of security and authentication using hashing, cookies, Google & Facebook OAuth,  and more.
@@ -130,24 +131,17 @@ A web application for posting anonymous messages. This project centered around 7
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [SimonSays Game](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SimonSays%20Game) 
+### [SimonSays Game](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SimonSays%20Game) ![stable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A retro-themed Simon Says game, focused on JS event handling and logic within a Bootstrap website 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Little To-Do List](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/ToDoList)
+### [Little To-Do List](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/ToDoList) ![unstable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Heroku][Heroku.com]][Heroku-url]
 
 A basic To-Do List web application that allows for custom list creation using mongoDB Atlas for storage. Built with bootstrap & hosted on Heroku web server.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### [Web Calculator](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/WebCalculator)
-![HTML5] [![NodeJS][NodeJS.org]][NodeJS-url]
-
-A very basic introduction to setting up an HTML page on a local NodeJS server.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -185,6 +179,15 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
+<!-- STATUS MARKERS -->
+[stable]: http://badges.github.io/stability-badges/dist/stable.svg
+[unstable]: http://badges.github.io/stability-badges/dist/unstable.svg
+[depreciated]: http://badges.github.io/stability-badges/dist/deprecated.svg
+[experimental]: http://badges.github.io/stability-badges/dist/experimental.svg
+[frozen]: http://badges.github.io/stability-badges/dist/frozen.svg
+[locked]: http://badges.github.io/stability-badges/dist/locked.svg
+
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
