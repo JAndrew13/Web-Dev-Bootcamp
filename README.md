@@ -68,7 +68,7 @@ While reviewing the code, you might see things that are spaced out or deconstruc
 
 
 # Projects 
-### [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website) ![unstable]
+### [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website) ![stable]
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 A mock startup company landing page, focused on Bootstrap. This project focused on popular Bootstrap elements, as well as dynamic screen sizing, and code formatting.
