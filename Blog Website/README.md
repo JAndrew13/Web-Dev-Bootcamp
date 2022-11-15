@@ -1,19 +1,25 @@
 
-# Project Title ![stable]
+# Blog Website ![stable]
 
 <!-- ABOUT SECTION -->
+This is the source code for my two part Blog website challenge project. It was initially created using Node and EJS, and then was later upgraded to include the use of a MongoDB database to store new blog posts. This project pulled together many of the tools used in previous lessons, resulting in a clean and minimal website in both design and code
 
-Here is the longer explination of the project. 
- - why does this exist?
- - how does it work?
- - what did you learn in this project?
+Upon opening the website, you'll see a simple navigation bar containing links to the about, contact, and home page. below this, I've included a basic overview text area, followed by a list of blog posts. 
+
+**The Homepage**
+On the Homepage, all of the posts are displayed in ascending order by date created. They are each shown with their title, as well as a truncated sample of the post body, followed by a 'read more' link. Clicking this link will take you to a dynamically created page for the post. 
+
+**Creating A Post**
+Each of these blog posts are created using the 'compose' page, which is a hidden feature of the website, allowing the content creator to add posts to the homepage. To access this page, simply add `/compose` to the end of the main web address.
+
+**The Database**
+
  
 
 <!-- TABLE OF CONTENTS -->
   #### Table of contents
 + [Prerequisites](#prerequisites)
 + [Installation](#installation)
-+ [Usage](#usage)
 + [Directory](#directory)
 + [Contact](#contact)
 + [Acknowledgments](#acknowledgments)
@@ -23,47 +29,55 @@ Here is the longer explination of the project.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
-  
+* any HTML code editor of your choice, such as [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/), etc.
+* install [Node.js](https://nodejs.org/en/)
+
+~optional~
+* install and setup [MongoDB](https://www.mongodb.com/) ([installation guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/))
+
+
 <!-- Installation -->
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. clone the repository to your desired location.
+2. Install the required packages in the terminal
+	`$ npm install`
+	
+3. To run the website as is, start the app from your terminal with, 
+	`$node app.js`
+4. In you browser's address bar, navigate to
+`http://http://localhost:3000/`
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+**Enable Local Database Controls**
+	To enable the MongoDB controls on your local machine, you will need to install and configure MongoDB on you local machine before running the application. Once you have done that, go ahead and run the application normally following **step 3** and **step 4**.
+
+Once you have the node server running successfully, the *app.js* file will have created a new database on your local machine. Check to see that this MongoDB server is running properly. 
+
+1. In a separate command terminal, open the mongo shell
+	`$ mongosh`
+	
+2. show the current list of active databases. you should see a new database called "BlogDB"
+	`$ show dbs`
+
+3. Here you can control the stored blog posts or delete the database entirely using standard MongoDB commands.  Check out the [documentation](https://www.mongodb.com/docs/) for more info!
+
+ 
+
   
-An Explination on how to use the code
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- DIRECTORY -->
 ## Directory
 
-### [/images](https://github.com/JAndrew13/)
-Contains all image files used in the application
+### [/CSS]()
+Folder containing CSS style sheet linked to the HTML document
+
+### [/images]()
+Contains all image files used in the web page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +97,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 * [The 2022 Web Development Course](https://www.udemy.com/course/the-complete-web-development-bootcamp)
-* [The London App Brewery](https://www.londonappbrewery.com/) 
+* [The London App Brewery](https://www.londonappbrewery.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +143,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
 [MongoDB.com]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://mongodb.com
 [Expressjs.com]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
