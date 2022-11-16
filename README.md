@@ -99,7 +99,7 @@ A simple web tool for picking a random winner. This was an early lesson on imple
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit) ![unstable]
+### [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit) ![stable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JQuery][JQuery.com]][JQuery-url] ![HTML5] ![CSS3]
 
 Another early JavaScript project, focused on mixing JavaScript and Bootstrap in a webpage, as well as an introduction to JQuery.
