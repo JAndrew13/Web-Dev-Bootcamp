@@ -75,7 +75,7 @@ A mock startup company landing page, focused on Bootstrap. This project focused 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website) ![unstable]
+### [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website) ![stable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 Basic Blog website with articles dynamically displayed on homepage, built with MongoDB backend for article storage.
@@ -92,7 +92,7 @@ Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) ![stable]
+### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) ![unstable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A simple web tool for picking a random winner. This was an early lesson on implementing JavaScript into a web browser.
