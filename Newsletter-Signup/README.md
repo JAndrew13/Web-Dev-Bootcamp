@@ -1,19 +1,20 @@
 
-# Project Title ![stable]
+
+
+# Simple Portfolio Website ![stable]
 
 <!-- ABOUT SECTION -->
 
-Here is the longer explination of the project. 
- - why does this exist?
- - how does it work?
- - what did you learn in this project?
- 
+Between your IG posts, blue check tweets, and lengthy Facebook rants, it's nearly impossible for your devoted followers to keep up with your every waking breath and shower thought. That is why I created this easy to use web signup, because let's face it - everyone needs a personal mailing list.
+
+Built using  
+
 
 <!-- TABLE OF CONTENTS -->
   #### Table of contents
 + [Prerequisites](#prerequisites)
 + [Installation](#installation)
-+ [Usage](#usage)
++ [How It Works](#how-it-works)
 + [Directory](#directory)
 + [Contact](#contact)
 + [Acknowledgments](#acknowledgments)
@@ -21,49 +22,71 @@ Here is the longer explination of the project.
 
 <!-- Prerequisites -->
 
-### Prerequisites
+## Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
-  
+* any HTML code editor of your choice, such as Visual Studio, Atom, Pycharm, etc.
+* install [Node.js](https://nodejs.org/en/)
+* Setup a [MailChimp](https://mailchimp.com) account
+
 <!-- Installation -->
-### Installation
+## Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. clone the repository to your desired location.
+2. Install the required packages in the terminal
+	`$ npm install`
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### Setup Your Mailchimp API
+1. Follow the steps provided in the [MailChimp API Documentation](https://mailchimp.com/developer/marketing/guides/quick-start/#generate-your-api-key) to obtain an API key and setup a new audience. This step gives the web forms a place to send and store your followers information.
+2. Create an `.env` file in the root project folder. 
+3. Inside the `.env` file, add in your *endpoint* and *key* to the first two lines as seen below, using your code editor.
+`MAILCHIMP_API_ENDPOINT= "YourApiEndpoint"`
+`MAILCHIMP_API_KEY= "YourApiKey"`
+4. Save the `.env` file 
+
+### Start the Server
+1. In a new terminal window, navigate to the project folder 
+2. Start the app from your terminal
+	`$ node app.js`
+3. In you browser's address bar, navigate to
+`http://http://localhost:3000/`
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- howitworks -->
+## How It Works
+Behind the Scenes, this project is pretty simple. We've got 3 html pages, an app.js logic file, and an .env containing keys. Ill give a little breakdown below of what each of these files do, and how they interact. 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-  
-An Explination on how to use the code
+
+### **app.js**
+The app.js file acts as the root starting point for the app, as well as the logic behind the pages interactions. At the top of the file (lines 1-17) are all of the setup commands for the server, package setups, and declarations. Below this are the app's get, post, and API request functions. These functions tell the app what actions were preformed by the user, as well as what to do next. 
+
+### **signup.html**
+This is the main view of the website upon load-up. This page contains all of the Bootstrap forms the user interacts with, as well as some In-line CSS styling.
+ 
+### **success.html**
+This page is where the user gets sent once they completed the signup process after their information is successfully sent to the MailChimp API.
+
+### **failure.html**
+This is the fallback page the user is sent to if an error occurred in their provided data, or within the API request process. 
+
+### **.env file**
+The `.env` file will contain your sensitive information, thus it is not included in this repositories starting files. Upon cloning the repository, you'll need to create your own `.env` file and enter in your personal API key and endpoint. (explained [above](#setup-your-mailchimp-api)).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DIRECTORY -->
 ## Directory
 
-### [/images](https://github.com/JAndrew13/)
-Contains all image files used in the application
+### [/public]()
+**CSS**
+Folder containing CSS style sheet linked to the HTML document
+
+**images**
+Contains all image files used in the web page.
+
+### [/root]()
+Contains all html pages, .env file,  and JS logic. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +106,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 * [The 2022 Web Development Course](https://www.udemy.com/course/the-complete-web-development-bootcamp)
-* [The London App Brewery](https://www.londonappbrewery.com/) 
+* [The London App Brewery](https://www.londonappbrewery.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,24 +137,14 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 
 [git-scl.com]:https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
 [git-url]:https://git-scm.com/
-[Postman.com]:https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
-[Postman-url]:https://Postman.com
-[Babel.com]:https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black
-[Babel-url]:Babel.com
 [JavaScript.com]:https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [JavaScript-url]:https://javascript.com
-[Heroku.com]: https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white
-[Heroku-url]: https://heroku.com
 [NodeJS.org]:https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [NodeJS-url]: https://nodejs.org
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-[MongoDB.com]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
-[MongoDB-url]: https://mongodb.com
+[JQuery-url]: https://jquery.com
 [Expressjs.com]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
 [Expressjs-url]: https://expressjs.com
 [npmjs.com]:https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white
