@@ -1,10 +1,9 @@
-
 # Blog Website ![stable]
 
 <!-- ABOUT SECTION -->
-This is the source code for my two part Blog website challenge project. It was initially created using Node and EJS, and then was later upgraded to include the use of a MongoDB database to store new blog posts. This project pulled together many of the tools used in previous lessons, resulting in a clean and minimal website in both design and code
+This is the source code for my two part Blog website challenge project. It was initially created using Node and EJS, and then was later upgraded to include the use of a MongoDB database to store new blog posts. This project pulled together many of the tools used in previous lessons, resulting in a clean and minimal website in both design and code.
 
-Upon opening the website, you'll see a simple navigation bar containing links to the about, contact, and home page. below this, I've included a basic overview text area, followed by a list of blog posts. 
+Upon opening the website, you'll see a simple navigation bar containing links to the about, contact, and home page. Below this, I've included a basic overview text area, followed by a list of blog posts. 
 
 **The Homepage**
 On the Homepage, all of the posts are displayed in ascending order by date created. They are each shown with their title, as well as a truncated sample of the post body, followed by a 'read more' link. Clicking this link will take you to a dynamically created page for the post. 
@@ -12,9 +11,6 @@ On the Homepage, all of the posts are displayed in ascending order by date creat
 **Creating A Post**
 Each of these blog posts are created using the 'compose' page, which is a hidden feature of the website, allowing the content creator to add posts to the homepage. To access this page, simply add `/compose` to the end of the main web address.
 
-**The Database**
-
- 
 
 <!-- TABLE OF CONTENTS -->
   #### Table of contents
@@ -32,7 +28,7 @@ Each of these blog posts are created using the 'compose' page, which is a hidden
 * any HTML code editor of your choice, such as [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/), etc.
 * install [Node.js](https://nodejs.org/en/)
 
-~optional~
+(optional setup with local database)
 * install and setup [MongoDB](https://www.mongodb.com/) ([installation guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/))
 
 
@@ -50,7 +46,7 @@ Each of these blog posts are created using the 'compose' page, which is a hidden
 
 
 **Enable Local Database Controls**
-	To enable the MongoDB controls on your local machine, you will need to install and configure MongoDB on you local machine before running the application. Once you have done that, go ahead and run the application normally following **step 3** and **step 4**.
+	To enable the MongoDB controls on your local machine, you will need to install and configure MongoDB on you local machine before running the application. Once you have done that, go ahead and run the application normally following **step 3** and **4**.
 
 Once you have the node server running successfully, the *app.js* file will have created a new database on your local machine. Check to see that this MongoDB server is running properly. 
 
@@ -73,11 +69,15 @@ Once you have the node server running successfully, the *app.js* file will have 
 <!-- DIRECTORY -->
 ## Directory
 
-### [/CSS]()
+### [/Public/CSS]()
 Folder containing CSS style sheet linked to the HTML document
 
-### [/images]()
-Contains all image files used in the web page.
+### [/Views]()
+Contains all pages and components used in the website
+
+**/partials**
+contains reusable components  ( *ex. header, footer* )
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
