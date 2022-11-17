@@ -2,9 +2,9 @@
 
 
 
-# Web-Dev-Bootcamp
-
 <a name="readme-top"></a>
+
+# Web-Dev-Bootcamp
 
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -18,19 +18,6 @@
 
 ## About The Bootcamp
 
-[git-scl.com]:https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
-[git-url]:https://git-scm.com/
-[Postman.com]:https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
-[Postman-url]:https://Postman.com
-
-[Babel.com]:https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black
-[Babel-url]:Babel.com
-[JavaScript.com]:https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
-[JavaScript-url]:https://javascript.com
-[Heroku.com]: https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white
-[Heroku-url]: https://heroku.com
-[NodeJS.org]:https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
-[NodeJS-url]: https://nodejs.org
 
 
 
@@ -43,38 +30,41 @@ This course covers a wide range of languages, frameworks, and techniques used in
 
 <!-- TABLE OF CONTENTS -->
   ### Table of contents
-+ [Projects](#projects)
-    - [Tindog](#tindog-website)
-    - [Blog Website](#blog-website)
-    - [Simple Portfolio Website](#simple-portfolio-website)
-    - [Dice Roller](#dice-roller)
-    - [Drum Kit](#drum-kit)
-    - [Keeper](#keeper)
-    - [Newsletter Signups](#newsletter-signup)
-    - [Secrets](#secrets)
-    - [Simon Says Game](#simonsays-game)
-    - [Little ToDo list](#little-to-do-list)
-+ [The Repository](#the-repository)
-+ [Usage](#usage)
-+ [Contact](#contact)
-+ [Acknowledgments](#acknowledgments)
+- [Projects](#projects)
+    - [Tindog](#tindog-website)  ✔️
+    - [Blog Website](#blog-website)  ✔️
+    - [Simple Portfolio Website](#simple-portfolio-website)  ✔️
+    - [Dice Roller](#dice-roller)  ✔️
+    - [Drum Kit](#drum-kit)  ✔️
+    - [Keeper](#keeper) ❌
+    - [Newsletter Signups](#newsletter-signup)  ✔️
+    - [Secrets](#secrets) ❌
+    - [Simon Says Game](#simonsays-game)  ✔️
+    - [Little ToDo list ](#little-to-do-list) ❌
+- [The Repository](#the-repository)
+- [Usage](#usage)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## The Repository
 Listed below are a handful of the projects I've completed that each highlight a skill or concept I've learned along the way.  
 
 While reviewing the code, you might see things that are spaced out or deconstructed This is because I wanted to focus my comments and structure on readability over compact refactoring.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
 # Projects 
-### [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website) ![stable]
+
+## [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website)
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 A mock startup company landing page, focused on Bootstrap. This project focused on popular Bootstrap elements, as well as dynamic screen sizing, and code formatting.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website) ![stable]
+## [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 Basic Blog website with articles dynamically displayed on homepage, built with MongoDB backend for article storage.
@@ -82,7 +72,7 @@ Basic Blog website with articles dynamically displayed on homepage, built with M
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Simple Portfolio Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio) ![stable]
+## [Simple Portfolio Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio)
 
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -91,21 +81,21 @@ Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) ![stable]
+## [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A simple web tool for picking a random winner. This was an early lesson on implementing JavaScript into a web browser.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit) ![stable]
+## [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit) 
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JQuery][JQuery.com]][JQuery-url] ![HTML5] ![CSS3]
 
 Another early JavaScript project, focused on mixing JavaScript and Bootstrap in a webpage, as well as an introduction to JQuery.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Keeper](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/keeper) ![unstable]
+## [Keeper](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/keeper) 
 [![JavaScript][Javascript.com]][JavaScript-url] [![React][React.js]][React-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Babel][Babel.com]][Babel-url]
 
 Keeper is a web application used for creating and storing "Post-it" style notes. This was a full stack project built with React, MongoDB, and JavaScript.
@@ -113,7 +103,7 @@ Keeper is a web application used for creating and storing "Post-it" style notes.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup) ![stable]
+## [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup)
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -122,7 +112,7 @@ A web landing page for users to join a newsletter mailing list. This project use
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Secrets](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SecretsApp) ![unstable]
+## [Secrets](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SecretsApp)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 A web application for posting anonymous messages. This project centered around 7 different levels of security and authentication using hashing, cookies, Google & Facebook OAuth,  and more.
@@ -130,14 +120,14 @@ A web application for posting anonymous messages. This project centered around 7
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [SimonSays Game](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SimonSays%20Game) ![stable]
+## [SimonSays Game](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SimonSays%20Game)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A retro-themed Simon Says game, focused on JS event handling and logic within a Bootstrap website 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Little To-Do List](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/ToDoList) ![unstable]
+## [Little To-Do List](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/ToDoList)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Heroku][Heroku.com]][Heroku-url]
 
 A basic To-Do List web application that allows for custom list creation using mongoDB Atlas for storage. Built with bootstrap & hosted on Heroku web server.
@@ -193,6 +183,18 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [linkedin-url]: https://linkedin.com/in/jake-brunner
 [product-screenshot]: images/screenshot.png
 
+[git-scl.com]:https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
+[git-url]:https://git-scm.com/
+[Postman.com]:https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
+[Postman-url]:https://Postman.com
+[Babel.com]:https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black
+[Babel-url]:Babel.com
+[JavaScript.com]:https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[JavaScript-url]:https://javascript.com
+[Heroku.com]: https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white
+[Heroku-url]: https://heroku.com
+[NodeJS.org]:https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[NodeJS-url]: https://nodejs.org
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
@@ -203,10 +205,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [MongoDB-url]: https://mongodb.com
 [Expressjs.com]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
 [Expressjs-url]: https://expressjs.com
-
 [npmjs.com]:https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white
 [npmjs-url]:npmjs.com
-
 [CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
-
 [HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
