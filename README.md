@@ -42,7 +42,7 @@ instructed by Dr. Angela Yu of the
 This course covers a wide range of languages, frameworks, and techniques used in web development today, from back to front. The curriculum is divided in a way that teaches new concepts and reinforces previous ones. Each of the 40 modules stair-steps into a final project, with the goal of both educataing and portfolio building. 
 
 <!-- TABLE OF CONTENTS -->
-  #### Table of contents
+  ### Table of contents
 + [Projects](#projects)
     - [Tindog](#tindog-website)
     - [Blog Website](#blog-website)
@@ -91,7 +91,7 @@ Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) ![unstable]
+### [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge) ![stable]
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A simple web tool for picking a random winner. This was an early lesson on implementing JavaScript into a web browser.
@@ -113,7 +113,7 @@ Keeper is a web application used for creating and storing "Post-it" style notes.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup) ![unstable]
+### [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup) ![stable]
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
