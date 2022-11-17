@@ -38,8 +38,9 @@ Built using Bootstrap along-side basic html and css - this app is simple yet eff
 1. Follow the steps provided in the [MailChimp API Documentation](https://mailchimp.com/developer/marketing/guides/quick-start/#generate-your-api-key) to obtain an API key and setup a new audience. This step gives the web forms a place to send and store your followers information.
 2. Create an `.env` file in the root project folder. 
 3. Inside the `.env` file, add in your *endpoint* and *key* to the first two lines as seen below, using your code editor.
-`MAILCHIMP_API_ENDPOINT= "YourApiEndpoint"`
-`MAILCHIMP_API_KEY= "YourApiKey"`
+	    
+	    `MAILCHIMP_API_ENDPOINT= "YourApiEndpoint"`
+	    `MAILCHIMP_API_KEY= "YourApiKey"`
 4. Save the `.env` file 
 
 ### Start the Server
