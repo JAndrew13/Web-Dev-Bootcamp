@@ -8,13 +8,14 @@ The goal of this project was to create a product landing page for a mock startup
 
 Built with a responsive design - the site opens to hero banner image, featuring call-to-action download buttons, an app image, and a few navigation buttons. Continuing down the page are four sections, followed by a page footer for social icons. The sections are laid out as follows..
 
-**Brand Mission Statements** to convey the app's purpose. These statements are paired with interactive material icons that could be used as links to further reading. 
 
-**Testimonial Slideshow** that features customer comments and profile pictures, as well as featured icons from well known brands. 
+`Brand Mission Statements` to convey the app's purpose. These statements are paired with interactive material icons that could be used as links to further reading. 
 
-**Membership Tiers** arranged in classic bootstrap card format to show pricing options and benefits
+`Testimonial Slideshow` that features customer comments and profile pictures, as well as featured icons from well known brands. 
 
-**Call-To-Action** statement followed by Android and iPhone download buttons.
+`Membership Tiers` arranged in classic bootstrap card format to show pricing options and benefits
+
+`Call-To-Action` statement followed by Android and iPhone download buttons.
 
 
 <!-- TABLE OF CONTENTS -->
