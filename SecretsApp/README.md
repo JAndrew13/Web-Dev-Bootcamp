@@ -1,104 +1,152 @@
 
-# Project Title ![stable]
+# Secrets App ![stable]
 
 <!-- ABOUT SECTION -->
+## About
 
-Here is the longer explination of the project. 
- - why does this exist?
- - how does it work?
- - what did you learn in this project?
- 
 
 <!-- TABLE OF CONTENTS -->
-  #### Table of contents
-+ [Prerequisites](#prerequisites)
-+ [Installation](#installation)
-+ [Usage](#usage)
-+ [Directory](#directory)
-+ [Contact](#contact)
-+ [Acknowledgments](#acknowledgments)
 
+## Table of contents
+
+- [Secrets App ](#secrets-app-)
+  - [About](#about)
+  - [Table of contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [Google API Setup](#google-api-setup)
+    - [Environment Setup](#environment-setup)
+    - [Starting The App](#starting-the-app)
+  - [Usage](#usage)
+  - [Directory](#directory)
+    - [/root](#root)
+    - [/Public/CSS](#publiccss)
+    - [/Views/partials](#viewspartials)
+  - [Contact](#contact)
+  - [Acknowledgments](#acknowledgments)
 
 <!-- Prerequisites -->
 
-### Prerequisites
+## Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
-  
+ * any HTML code editor of your choice, such as [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/), etc.
+* install [Node.js](https://nodejs.org/en/)
+* install and setup [MongoDB](https://www.mongodb.com/) ([installation guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/))
+
 <!-- Installation -->
-### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+## Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. clone the repository to your desired location.
+2. Install the required packages in the terminal
+`$ npm install`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Google API Setup
+1. Head over to [Google's Developer Console](https://console.cloud.google.com/)
+2. Create a new project name "Secrets".
+3. Navigate to the *Credentials* tab, enter your email, then click save.
+4. click "Create Credentials", then select **OAuth Client ID**
+5. Select "Web Application" and enter the name "Secrets".
+6. Under *Authorized Javascript Origins*, enter `http://localhost:3000`
+7. Under  *Authorized Redirect URLS*, enter  `http://localhost:3000/auth/google/secrets`
+8. Click submit, then save the provided **client ID** and **client secret**
+
+### Environment Setup
+1. Inside the root project directory, create a new file called `.env`
+2. open this file with any code editor and add the following text.
+`CLIENT_ID=(your client ID)`
+`CLIENT_SECRET=(your client secret)`
+3. save the file
+
+### Starting The App
+
+ To run the website as is, start the app from your terminal with,
+`$node app.js`
+
+ In you browser's address bar, navigate to
+`http://http://localhost:3000/`
 
 
-<!-- USAGE EXAMPLES -->
+**Enabling Database Controls**
+
+To enable the MongoDB controls on your local machine, you will need to install and configure MongoDB on you local machine before running the application. Once you have done that, go ahead and run the application normally.
+
+Once you have the node server running successfully, the *app.js* file will have created a new database on your local machine. Check to see that this MongoDB server is running properly.
+
+1. In a separate command terminal, open the mongo shell. 
+`$ mongosh`
+
+2. show the current list of active databases
+`$ show dbs`
+
+4. Here you can control the stored users in "UserDB", or delete the database entirely using standard MongoDB commands. Check out the [documentation](https://www.mongodb.com/docs/) for more info!
+
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE -->
+
 ## Usage
-  
-An Explination on how to use the code
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Once you've successfully got the web-app up and running, you can either manually register a new account on the homepage, or login using your google account with Google OAuth. For manual logins, the data is sent and stored on your local Mongo Database.
 
+After logging in, you are taken to the "secrets" page. This page displays secret messages created by all users. Each user is allowed only one secret at a time (so make sure its a good one!)
+
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+ 
 <!-- DIRECTORY -->
+
 ## Directory
 
-### [/images](https://github.com/JAndrew13/)
-Contains all image files used in the application
+### [/root]()
+Contains the main **app.js** file, as well as .env variables for the google API
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### [/Public/CSS]()
+
+Folder containing CSS style sheet linked to the HTML document
+
+  
+
+### [/Views/partials]()
+
+Contains all pages and components used in the website
+
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+
+  
 
 <!-- CONTACT -->
+
 ## Contact
 
-Jake Brunner -  jbbrunner10@gmail.com
+  
 
+Jake Brunner - jbbrunner10@gmail.com
 LinkedIn - https://www.linkedin.com/in/jake-brunner-21760522b/
-
 This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
+
 * [The 2022 Web Development Course](https://www.udemy.com/course/the-complete-web-development-bootcamp)
-* [The London App Brewery](https://www.londonappbrewery.com/) 
+* [The London App Brewery](https://www.londonappbrewery.com/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
+ <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+ 
 <!-- MARKDOWN LINKS & IMAGES -->
-
-[product-screenshot]: images/screenshot.png
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 
+  
+
 <!-- STATUS MARKERS -->
+
+  
 
 [stable]: http://badges.github.io/stability-badges/dist/stable.svg
 [unstable]: http://badges.github.io/stability-badges/dist/unstable.svg
@@ -111,7 +159,6 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 
 <!-- TOOLS -->
-
 [git-scl.com]:https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white
 [git-url]:https://git-scm.com/
 [Postman.com]:https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
@@ -129,7 +176,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
 [MongoDB.com]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://mongodb.com
 [Expressjs.com]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
