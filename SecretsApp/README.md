@@ -121,7 +121,9 @@ Contains all pages and components used in the website
   
 
 Jake Brunner - jbbrunner10@gmail.com
+
 LinkedIn - https://www.linkedin.com/in/jake-brunner-21760522b/
+
 This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
