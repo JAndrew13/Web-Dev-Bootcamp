@@ -1,69 +1,104 @@
-
-# Project Title ![stable]
+# Little To-Do List ![stable]
 
 <!-- ABOUT SECTION -->
 
-Here is the longer explination of the project. 
- - why does this exist?
- - how does it work?
- - what did you learn in this project?
- 
 
 <!-- TABLE OF CONTENTS -->
-  #### Table of contents
-+ [Prerequisites](#prerequisites)
-+ [Installation](#installation)
-+ [Usage](#usage)
-+ [Directory](#directory)
-+ [Contact](#contact)
-+ [Acknowledgments](#acknowledgments)
+  ## Table of contents
+- [Little To-Do List ](#little-to-do-list-)
+  - [Table of contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [MongoDB Atlas Setup](#mongodb-atlas-setup)
+    - [Starting the application locally](#starting-the-application-locally)
+  - [Usage](#usage)
+    - [List controls](#list-controls)
+  - [Directory](#directory)
+    - [/Public/CSS](#publiccss)
+    - [/Views](#views)
+  - [Contact](#contact)
+  - [Acknowledgments](#acknowledgments)
 
 
 <!-- Prerequisites -->
 
-### Prerequisites
+## Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-  
-  
+* any HTML code editor of your choice, such as [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/), etc.
+* install [Node.js](https://nodejs.org/en/)
+
+(optional setup with MongoDB Atlas Cloud Database)
+* install and setup [MongoDB](https://www.mongodb.com/) ([installation guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/))
+
+
 <!-- Installation -->
-### Installation
+## Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. clone the repository to your desired location.
+2. Install the required packages in the terminal
+	`$ npm install`
+3. To run the website as is, start the app from your terminal with, 
+	`$node app.js`
+4. In you browser's address bar, navigate to
+`http://http://localhost:3000/`
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+### MongoDB Atlas Setup
+1. Create a MongoDB Atlas Account
+2. Select your desired settings and create a new Cluster 
+3. Find the "connect to application" option, and obtain a new **SRV Key**.
+4. In the root project folder, create a new file called `.env`
+5. Edit the new .env file, and enter this line at the top of the file. 
+   `MONGO_ATLAS_KEY= (Enter your SRV Key here)`
+6. Save the file.
+
+### Starting the application locally
+
+1. On Windows, open the command terminal and navigate to your project folder.
+2. Install the required packages using `$npm install`
+3. Start the application on your local server with `node app.js`
+4. If there are no errors, then you can head to http://localhost:3000 in your web browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- USAGE EXAMPLES -->
 ## Usage
-  
-An Explination on how to use the code
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Once you are successfully connected to the website,  you'll be greeted by a fresh To-Do list with a few tutorial items explaining how to interact with the site. 
+
+### List controls
+
+**Create new item**
+Simply type out the item description, then click the `+` button on the right to add a new item to your list. 
+
+**Deleting a list item**
+To delete a completed task, click the empty checkbox on the left of your item.
+
+**Creating a new list**
+Lists are created and saved dynamically by adding a `/new_list_name` to the end of the html address. For example, entering `localhost:3000/workshop` into the address bar will create and save a new empty list to the database
+
+
+
 
 <!-- DIRECTORY -->
 ## Directory
 
-### [/images](https://github.com/JAndrew13/)
-Contains all image files used in the application
+### [/Public/CSS]()
+Folder containing CSS style sheet linked to the HTML document
+
+### [/Views]()
+Contains all pages and components used in the website
+
+**/about**
+Html component for the about page
+
+**/footer**
+Html component for the website's footer
+
+**/header**
+html component for the websites header
+
+**/list**
+html component for the main To-Do list
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +118,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 * [The 2022 Web Development Course](https://www.udemy.com/course/the-complete-web-development-bootcamp)
-* [The London App Brewery](https://www.londonappbrewery.com/) 
+* [The London App Brewery](https://www.londonappbrewery.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,7 +164,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
 [MongoDB.com]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 [MongoDB-url]: https://mongodb.com
 [Expressjs.com]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
