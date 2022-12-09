@@ -4,6 +4,28 @@
 <!-- ABOUT SECTION -->
 ## About
 
+The Secrets App is a website that allows you to share a personal secret anonymously alongside others on the secrets board.
+Starting with account creation, new users can enter details manually or login using the Google OAuth2 method. From there, The data is sent to a secure MongoDB Atlas database. Here, user accounts are stored alongside any other potential profile information, as well as the secrets created by this user.
+
+Being centered around web security and authentication methods, over the course of the development process I learned and implemented 6 different types of security layers. Though it is quite simple, it taught me invaluable lessons on why and how to include security in my future projects - starting with basic user registration, and ending with Google OAuth2 connections. Below is a breakdown of each of the successive security techniques.
+
+#### Layer 1: User Registration and login
+Allow users to create an account name and password stored in a local database
+
+#### Layer 2: Database Encryption
+Require basic encryption on all password data stored in the database
+
+#### Layer 3: Hashing Passwords
+Apply Hashing to the encrypted passwords stored in the database
+
+#### Layer 4: Salting and Hashing Passwords
+Include 10 rounds of salting/hashing on the encrypted passwords
+
+#### Layer 5: Enable Cookies and Sessions
+Add Cookies and Sessions to the browser using Passport.JS
+
+#### Layer 6: Enable Google OAuth2 Login
+Connect a Google OAuth2 login button to the signup/login page.
 
 <!-- TABLE OF CONTENTS -->
 
@@ -29,7 +51,7 @@
 
 ## Prerequisites
 
- * any HTML code editor of your choice, such as [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/), etc.
+* any HTML code editor of your choice, such as [VS Code](https://code.visualstudio.com/), [Atom](https://atom.io/), etc.
 * install [Node.js](https://nodejs.org/en/)
 * install and setup [MongoDB](https://www.mongodb.com/) ([installation guide](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/))
 
@@ -73,7 +95,7 @@ To enable the MongoDB controls on your local machine, you will need to install a
 
 Once you have the node server running successfully, the *app.js* file will have created a new database on your local machine. Check to see that this MongoDB server is running properly.
 
-1. In a separate command terminal, open the mongo shell. 
+1. In a separate command terminal, open the mongo shell.
 `$ mongosh`
 
 2. show the current list of active databases
@@ -92,7 +114,7 @@ Once you've successfully got the web-app up and running, you can either manually
 After logging in, you are taken to the "secrets" page. This page displays secret messages created by all users. Each user is allowed only one secret at a time (so make sure its a good one!)
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
- 
+
 <!-- DIRECTORY -->
 
 ## Directory
@@ -104,7 +126,7 @@ Contains the main **app.js** file, as well as .env variables for the google API
 
 Folder containing CSS style sheet linked to the HTML document
 
-  
+
 
 ### [/Views/partials]()
 
@@ -112,13 +134,13 @@ Contains all pages and components used in the website
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
-  
+
 
 <!-- CONTACT -->
 
 ## Contact
 
-  
+
 
 Jake Brunner - jbbrunner10@gmail.com
 
@@ -136,7 +158,7 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 * [The London App Brewery](https://www.londonappbrewery.com/)
 
  <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
- 
+
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
@@ -144,11 +166,11 @@ This Repository - https://github.com/jandrew13/Web-Dev-Bootcamp
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 
-  
+
 
 <!-- STATUS MARKERS -->
 
-  
+
 
 [stable]: http://badges.github.io/stability-badges/dist/stable.svg
 [unstable]: http://badges.github.io/stability-badges/dist/unstable.svg

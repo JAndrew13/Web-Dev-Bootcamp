@@ -1,7 +1,9 @@
 # Little To-Do List ![stable]
 
 <!-- ABOUT SECTION -->
+ Little To-Do List is a JavaScript app I created that allows users to create/delete tasks on a custom list. This project focused on compartmentalizing HTML and JS components to create and store dynamically created custom lists, each storing a unique set of tasks on a local database.
 
+ Originally the project was hosted on a Heroku cloud server, but has since been retired to my local machine. If you'd like to check out the application, feel free to clone the repository and spin up a version on your own machine using the instructions below! 
 
 <!-- TABLE OF CONTENTS -->
   ## Table of contents
@@ -37,17 +39,17 @@
 1. clone the repository to your desired location.
 2. Install the required packages in the terminal
 	`$ npm install`
-3. To run the website as is, start the app from your terminal with, 
+3. To run the website as is, start the app from your terminal with,
 	`$node app.js`
 4. In you browser's address bar, navigate to
 `http://http://localhost:3000/`
 
 ### MongoDB Atlas Setup
 1. Create a MongoDB Atlas Account
-2. Select your desired settings and create a new Cluster 
+2. Select your desired settings and create a new Cluster
 3. Find the "connect to application" option, and obtain a new **SRV Key**.
 4. In the root project folder, create a new file called `.env`
-5. Edit the new .env file, and enter this line at the top of the file. 
+5. Edit the new .env file, and enter this line at the top of the file.
    `MONGO_ATLAS_KEY= (Enter your SRV Key here)`
 6. Save the file.
 
@@ -62,12 +64,12 @@
 
 ## Usage
 
-Once you are successfully connected to the website,  you'll be greeted by a fresh To-Do list with a few tutorial items explaining how to interact with the site. 
+Once you are successfully connected to the website,  you'll be greeted by a fresh To-Do list with a few tutorial items explaining how to interact with the site.
 
 ### List controls
 
 **Create new item**
-Simply type out the item description, then click the `+` button on the right to add a new item to your list. 
+Simply type out the item description, then click the `+` button on the right to add a new item to your list.
 
 **Deleting a list item**
 To delete a completed task, click the empty checkbox on the left of your item.
