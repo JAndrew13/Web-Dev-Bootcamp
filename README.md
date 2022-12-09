@@ -31,16 +31,16 @@ This course covers a wide range of languages, frameworks, and techniques used in
 <!-- TABLE OF CONTENTS -->
   ### Table of contents
 - [Projects](#projects)
-    - [Tindog](#tindog-website)  ✔️
-    - [Blog Website](#blog-website)  ✔️
-    - [Simple Portfolio Website](#simple-portfolio-website)  ✔️
-    - [Dice Roller](#dice-roller)  ✔️
-    - [Drum Kit](#drum-kit)  ✔️
-    - [Keeper](#keeper) ❌
-    - [Newsletter Signups](#newsletter-signup)  ✔️
-    - [Secrets](#secrets) ❌
-    - [Simon Says Game](#simonsays-game)  ✔️
-    - [Little ToDo list ](#little-to-do-list) ❌
+    - [Tindog](#tindog-website)
+    - [Blog Website](#blog-website)
+    - [Simple Portfolio Website](#simple-portfolio-website)
+    - [Dice Roller](#dice-roller)
+    - [Drum Kit](#drum-kit)
+    - [Keeper](#keeper)
+    - [Newsletter Signups](#newsletter-signup)
+    - [Secrets](#secrets)
+    - [Simon Says Game](#simonsays-game)
+    - [Little ToDo list ](#little-to-do-list)
 - [The Repository](#the-repository)
 - [Usage](#usage)
 - [Contact](#contact)
