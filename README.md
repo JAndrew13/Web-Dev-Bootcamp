@@ -57,14 +57,14 @@ While reviewing the code, you might see things that are spaced out or deconstruc
 
 # Projects 
 
-## [TinDog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/TinDog%20Website)
+## [TinDog Website](https://github.com/JAndrew13/TinDog)
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 A mock startup company landing page, focused on Bootstrap. This project focused on popular Bootstrap elements, as well as dynamic screen sizing, and code formatting.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Blog Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Blog%20Website)
+## [Blog Website](https://github.com/JAndrew13/BlogWebsite)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 Basic Blog website with articles dynamically displayed on homepage, built with MongoDB backend for article storage.
@@ -72,7 +72,7 @@ Basic Blog website with articles dynamically displayed on homepage, built with M
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Simple Portfolio Website](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Simple%20Portfolio)
+## [Simple Portfolio Website](https://github.com/JAndrew13/SimplePortfolio)
 
 ![HTML5] ![CSS3] [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -81,21 +81,21 @@ Basic example of a portfolio landing page using only HTML, CSS and Bootstrap.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Dice Roller](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Dicee%20Challenge)
+## [Dice Roller](https://github.com/JAndrew13/DiceGame)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A simple web tool for picking a random winner. This was an early lesson on implementing JavaScript into a web browser.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Drum Kit](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Drum%20Kit) 
+## [Drum Kit](https://github.com/JAndrew13/DrumKit) 
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JQuery][JQuery.com]][JQuery-url] ![HTML5] ![CSS3]
 
 Another early JavaScript project, focused on mixing JavaScript and Bootstrap in a webpage, as well as an introduction to JQuery.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Keeper](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/keeper) 
+## [Keeper](https://github.com/JAndrew13/KeeperApp) 
 [![JavaScript][Javascript.com]][JavaScript-url] [![React][React.js]][React-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Babel][Babel.com]][Babel-url]
 
 Keeper is a web application used for creating and storing "Post-it" style notes. This was a full stack project built with React, MongoDB, and JavaScript.
@@ -103,7 +103,7 @@ Keeper is a web application used for creating and storing "Post-it" style notes.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Newsletter Signup](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/Newsletter-Signup)
+## [Newsletter Signup](https://github.com/JAndrew13/NewsletterSignup)
 [![JavaScript][Javascript.com]][JavaScript-url]
 [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
@@ -112,7 +112,7 @@ A web landing page for users to join a newsletter mailing list. This project use
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Secrets](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SecretsApp)
+## [Secrets](https://github.com/JAndrew13/SecretsApp)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Express.js][expressjs.com]][Expressjs-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![NodeJS][NodeJS.org]][NodeJS-url]
 
 A web application for posting anonymous messages. This project centered around 7 different levels of security and authentication using hashing, cookies, Google & Facebook OAuth,  and more.
@@ -120,14 +120,14 @@ A web application for posting anonymous messages. This project centered around 7
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [SimonSays Game](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/SimonSays%20Game)
+## [SimonSays Game](https://github.com/JAndrew13/SimonSays)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] ![HTML5] ![CSS3]
 
 A retro-themed Simon Says game, focused on JS event handling and logic within a Bootstrap website 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## [Little To-Do List](https://github.com/JAndrew13/Web-Dev-Bootcamp/tree/main/ToDoList)
+## [Little To-Do List](https://github.com/JAndrew13/LittleToDo)
 [![JavaScript][Javascript.com]][JavaScript-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![MongoDB][MongoDB.com]][MongoDB-url] [![Heroku][Heroku.com]][Heroku-url]
 
 A basic To-Do List web application that allows for custom list creation using mongoDB Atlas for storage. Built with bootstrap & hosted on Heroku web server.
